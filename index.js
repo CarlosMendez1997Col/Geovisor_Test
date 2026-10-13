@@ -74,7 +74,7 @@ var esriLabelsLayer = L.tileLayer(mapaBaseDefiniciones["Satélite Híbrido"].url
 var capaBaseInstanciada = L.layerGroup([esriHibridoLayer, esriLabelsLayer]).addTo(map);
 var mapaBaseActualNombre = "Satélite Híbrido";
 
-var urlServidorWms = "http://acre.senamhi.gob.bo/geoserver/rio_acre_manchas/wms";
+var urlServidorWms = "https://senageo.senamhi.gob.bo/geoserver/rio_acre_manchas/wms";
 var espacioTrabajoReal = "rio_acre_manchas";
 var estiloAsignado = "estilo_inundacion";
 
